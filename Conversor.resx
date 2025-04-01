@@ -117,4 +117,908 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ContenidorDivisioVistes.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ContenidorDivisioVistes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TaulaConversor.ColumnCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ConvertirDivisaBoto.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ConvertirDivisaBoto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>303, 378</value>
+  </data>
+  <data name="ConvertirDivisaBoto.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="ConvertirDivisaBoto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 69</value>
+  </data>
+  <data name="ConvertirDivisaBoto.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="ConvertirDivisaBoto.Text" xml:space="preserve">
+    <value>Convertir
+(Ctrl+N)</value>
+  </data>
+  <data name="&gt;&gt;ConvertirDivisaBoto.Name" xml:space="preserve">
+    <value>ConvertirDivisaBoto</value>
+  </data>
+  <data name="&gt;&gt;ConvertirDivisaBoto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ConvertirDivisaBoto.Parent" xml:space="preserve">
+    <value>TaulaConversor</value>
+  </data>
+  <data name="&gt;&gt;ConvertirDivisaBoto.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ContenidorDivisaConvertir.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ContenidorDivisaConvertir.IsSplitterFixed" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ContenidorDivisaConvertir.Location" type="System.Drawing.Point, System.Drawing">
+    <value>303, 303</value>
+  </data>
+  <data name="DivisaConvertirText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="DivisaConvertirText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="DivisaConvertirText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="DivisaConvertirText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 69</value>
+  </data>
+  <data name="DivisaConvertirText.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="DivisaConvertirText.Text" xml:space="preserve">
+    <value>Divisa a convertir</value>
+  </data>
+  <data name="DivisaConvertirText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;DivisaConvertirText.Name" xml:space="preserve">
+    <value>DivisaConvertirText</value>
+  </data>
+  <data name="&gt;&gt;DivisaConvertirText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DivisaConvertirText.Parent" xml:space="preserve">
+    <value>ContenidorDivisaConvertir.Panel1</value>
+  </data>
+  <data name="&gt;&gt;DivisaConvertirText.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ContenidorDivisaConvertir.Panel1.Name" xml:space="preserve">
+    <value>ContenidorDivisaConvertir.Panel1</value>
+  </data>
+  <data name="&gt;&gt;ContenidorDivisaConvertir.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ContenidorDivisaConvertir.Panel1.Parent" xml:space="preserve">
+    <value>ContenidorDivisaConvertir</value>
+  </data>
+  <data name="&gt;&gt;ContenidorDivisaConvertir.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="DivisaConvertirCaixa.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="DivisaConvertirCaixa.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="DivisaConvertirCaixa.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 28</value>
+  </data>
+  <data name="DivisaConvertirCaixa.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;DivisaConvertirCaixa.Name" xml:space="preserve">
+    <value>DivisaConvertirCaixa</value>
+  </data>
+  <data name="&gt;&gt;DivisaConvertirCaixa.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DivisaConvertirCaixa.Parent" xml:space="preserve">
+    <value>ContenidorDivisaConvertir.Panel2</value>
+  </data>
+  <data name="&gt;&gt;DivisaConvertirCaixa.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ContenidorDivisaConvertir.Panel2.Name" xml:space="preserve">
+    <value>ContenidorDivisaConvertir.Panel2</value>
+  </data>
+  <data name="&gt;&gt;ContenidorDivisaConvertir.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ContenidorDivisaConvertir.Panel2.Parent" xml:space="preserve">
+    <value>ContenidorDivisaConvertir</value>
+  </data>
+  <data name="&gt;&gt;ContenidorDivisaConvertir.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ContenidorDivisaConvertir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 69</value>
+  </data>
+  <data name="ContenidorDivisaConvertir.SplitterDistance" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="ContenidorDivisaConvertir.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;ContenidorDivisaConvertir.Name" xml:space="preserve">
+    <value>ContenidorDivisaConvertir</value>
+  </data>
+  <data name="&gt;&gt;ContenidorDivisaConvertir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ContenidorDivisaConvertir.Parent" xml:space="preserve">
+    <value>TaulaConversor</value>
+  </data>
+  <data name="&gt;&gt;ContenidorDivisaConvertir.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BotoBuidar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="BotoBuidar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>303, 78</value>
+  </data>
+  <data name="BotoBuidar.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="BotoBuidar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 69</value>
+  </data>
+  <data name="BotoBuidar.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="BotoBuidar.Text" xml:space="preserve">
+    <value>Buidar
+(Ctrl+Q)</value>
+  </data>
+  <data name="&gt;&gt;BotoBuidar.Name" xml:space="preserve">
+    <value>BotoBuidar</value>
+  </data>
+  <data name="&gt;&gt;BotoBuidar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BotoBuidar.Parent" xml:space="preserve">
+    <value>TaulaConversor</value>
+  </data>
+  <data name="&gt;&gt;BotoBuidar.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="CaixaEscriptura.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="CaixaEscriptura.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Symbol, 13.8pt, style=Bold</value>
+  </data>
+  <data name="CaixaEscriptura.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 78</value>
+  </data>
+  <data name="CaixaEscriptura.Multiline" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="CaixaEscriptura.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="CaixaEscriptura.Size" type="System.Drawing.Size, System.Drawing">
+    <value>294, 69</value>
+  </data>
+  <data name="CaixaEscriptura.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="CaixaEscriptura.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;CaixaEscriptura.Name" xml:space="preserve">
+    <value>CaixaEscriptura</value>
+  </data>
+  <data name="&gt;&gt;CaixaEscriptura.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CaixaEscriptura.Parent" xml:space="preserve">
+    <value>TaulaConversor</value>
+  </data>
+  <data name="&gt;&gt;CaixaEscriptura.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ConversorTitol.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ConversorTitol.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ConversorTitol.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11pt, style=Bold</value>
+  </data>
+  <data name="ConversorTitol.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="ConversorTitol.Size" type="System.Drawing.Size, System.Drawing">
+    <value>394, 75</value>
+  </data>
+  <data name="ConversorTitol.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ConversorTitol.Text" xml:space="preserve">
+    <value>Conversor de divises</value>
+  </data>
+  <data name="ConversorTitol.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;ConversorTitol.Name" xml:space="preserve">
+    <value>ConversorTitol</value>
+  </data>
+  <data name="&gt;&gt;ConversorTitol.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ConversorTitol.Parent" xml:space="preserve">
+    <value>TaulaConversor</value>
+  </data>
+  <data name="&gt;&gt;ConversorTitol.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ContenidorDivisaActual.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ContenidorDivisaActual.IsSplitterFixed" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ContenidorDivisaActual.Location" type="System.Drawing.Point, System.Drawing">
+    <value>303, 228</value>
+  </data>
+  <data name="DivisaActualText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="DivisaActualText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="DivisaActualText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="DivisaActualText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 69</value>
+  </data>
+  <data name="DivisaActualText.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="DivisaActualText.Text" xml:space="preserve">
+    <value>Divisa actual</value>
+  </data>
+  <data name="DivisaActualText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;DivisaActualText.Name" xml:space="preserve">
+    <value>DivisaActualText</value>
+  </data>
+  <data name="&gt;&gt;DivisaActualText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DivisaActualText.Parent" xml:space="preserve">
+    <value>ContenidorDivisaActual.Panel1</value>
+  </data>
+  <data name="&gt;&gt;DivisaActualText.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ContenidorDivisaActual.Panel1.Name" xml:space="preserve">
+    <value>ContenidorDivisaActual.Panel1</value>
+  </data>
+  <data name="&gt;&gt;ContenidorDivisaActual.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ContenidorDivisaActual.Panel1.Parent" xml:space="preserve">
+    <value>ContenidorDivisaActual</value>
+  </data>
+  <data name="&gt;&gt;ContenidorDivisaActual.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="DivisaActualCaixa.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="DivisaActualCaixa.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="DivisaActualCaixa.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 28</value>
+  </data>
+  <data name="DivisaActualCaixa.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;DivisaActualCaixa.Name" xml:space="preserve">
+    <value>DivisaActualCaixa</value>
+  </data>
+  <data name="&gt;&gt;DivisaActualCaixa.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DivisaActualCaixa.Parent" xml:space="preserve">
+    <value>ContenidorDivisaActual.Panel2</value>
+  </data>
+  <data name="&gt;&gt;DivisaActualCaixa.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ContenidorDivisaActual.Panel2.Name" xml:space="preserve">
+    <value>ContenidorDivisaActual.Panel2</value>
+  </data>
+  <data name="&gt;&gt;ContenidorDivisaActual.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ContenidorDivisaActual.Panel2.Parent" xml:space="preserve">
+    <value>ContenidorDivisaActual</value>
+  </data>
+  <data name="&gt;&gt;ContenidorDivisaActual.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ContenidorDivisaActual.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 69</value>
+  </data>
+  <data name="ContenidorDivisaActual.SplitterDistance" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="ContenidorDivisaActual.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;ContenidorDivisaActual.Name" xml:space="preserve">
+    <value>ContenidorDivisaActual</value>
+  </data>
+  <data name="&gt;&gt;ContenidorDivisaActual.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ContenidorDivisaActual.Parent" xml:space="preserve">
+    <value>TaulaConversor</value>
+  </data>
+  <data name="&gt;&gt;ContenidorDivisaActual.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="TaulaConversor.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TaulaConversor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="TaulaConversor.RowCount" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="TaulaConversor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 450</value>
+  </data>
+  <data name="TaulaConversor.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;TaulaConversor.Name" xml:space="preserve">
+    <value>TaulaConversor</value>
+  </data>
+  <data name="&gt;&gt;TaulaConversor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TaulaConversor.Parent" xml:space="preserve">
+    <value>ContenidorDivisioVistes.Panel1</value>
+  </data>
+  <data name="&gt;&gt;TaulaConversor.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TaulaConversor.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="ConvertirDivisaBoto" Row="5" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="ContenidorDivisaConvertir" Row="4" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="BotoBuidar" Row="1" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="CaixaEscriptura" Row="1" RowSpan="1" Column="0" ColumnSpan="3" /&gt;&lt;Control Name="ConversorTitol" Row="0" RowSpan="1" Column="0" ColumnSpan="4" /&gt;&lt;Control Name="ContenidorDivisaActual" Row="3" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,25,Percent,25,Percent,25,Percent,25" /&gt;&lt;Rows Styles="Percent,16,667356,Percent,16,66736,Percent,16,66736,Percent,16,66736,Percent,16,66736,Percent,16,663195" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;ContenidorDivisioVistes.Panel1.Name" xml:space="preserve">
+    <value>ContenidorDivisioVistes.Panel1</value>
+  </data>
+  <data name="&gt;&gt;ContenidorDivisioVistes.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ContenidorDivisioVistes.Panel1.Parent" xml:space="preserve">
+    <value>ContenidorDivisioVistes</value>
+  </data>
+  <data name="&gt;&gt;ContenidorDivisioVistes.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TaulaHistorial.ColumnCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="BotoEsborrar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="BotoEsborrar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 228</value>
+  </data>
+  <data name="BotoEsborrar.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="BotoEsborrar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>390, 69</value>
+  </data>
+  <data name="BotoEsborrar.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="BotoEsborrar.Text" xml:space="preserve">
+    <value>Esborrar registre
+(Ctrl+D)
+</value>
+  </data>
+  <data name="&gt;&gt;BotoEsborrar.Name" xml:space="preserve">
+    <value>BotoEsborrar</value>
+  </data>
+  <data name="&gt;&gt;BotoEsborrar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BotoEsborrar.Parent" xml:space="preserve">
+    <value>TaulaHistorial</value>
+  </data>
+  <data name="&gt;&gt;BotoEsborrar.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="HistorialTitol.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="HistorialTitol.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="HistorialTitol.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11pt, style=Bold</value>
+  </data>
+  <data name="HistorialTitol.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="HistorialTitol.Size" type="System.Drawing.Size, System.Drawing">
+    <value>390, 75</value>
+  </data>
+  <data name="HistorialTitol.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="HistorialTitol.Text" xml:space="preserve">
+    <value>Historial de conversions</value>
+  </data>
+  <data name="HistorialTitol.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;HistorialTitol.Name" xml:space="preserve">
+    <value>HistorialTitol</value>
+  </data>
+  <data name="&gt;&gt;HistorialTitol.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HistorialTitol.Parent" xml:space="preserve">
+    <value>TaulaHistorial</value>
+  </data>
+  <data name="&gt;&gt;HistorialTitol.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TaulaDades.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TaulaDades.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 78</value>
+  </data>
+  <data name="TaulaDades.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="TaulaDades.Size" type="System.Drawing.Size, System.Drawing">
+    <value>390, 144</value>
+  </data>
+  <data name="TaulaDades.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;TaulaDades.Name" xml:space="preserve">
+    <value>TaulaDades</value>
+  </data>
+  <data name="&gt;&gt;TaulaDades.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TaulaDades.Parent" xml:space="preserve">
+    <value>TaulaHistorial</value>
+  </data>
+  <data name="&gt;&gt;TaulaDades.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="VendaTransaccio.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="VendaTransaccio.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="VendaTransaccio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="VendaTransaccio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 45</value>
+  </data>
+  <data name="VendaTransaccio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 24</value>
+  </data>
+  <data name="VendaTransaccio.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="VendaTransaccio.Text" xml:space="preserve">
+    <value>Venda</value>
+  </data>
+  <data name="&gt;&gt;VendaTransaccio.Name" xml:space="preserve">
+    <value>VendaTransaccio</value>
+  </data>
+  <data name="&gt;&gt;VendaTransaccio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VendaTransaccio.Parent" xml:space="preserve">
+    <value>ContenidorTipusTransaccio</value>
+  </data>
+  <data name="&gt;&gt;VendaTransaccio.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="CompraTransaccio.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CompraTransaccio.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="CompraTransaccio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="CompraTransaccio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="CompraTransaccio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 24</value>
+  </data>
+  <data name="CompraTransaccio.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="CompraTransaccio.Text" xml:space="preserve">
+    <value>Compra</value>
+  </data>
+  <data name="&gt;&gt;CompraTransaccio.Name" xml:space="preserve">
+    <value>CompraTransaccio</value>
+  </data>
+  <data name="&gt;&gt;CompraTransaccio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CompraTransaccio.Parent" xml:space="preserve">
+    <value>ContenidorTipusTransaccio</value>
+  </data>
+  <data name="&gt;&gt;CompraTransaccio.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ContenidorTipusTransaccio.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ContenidorTipusTransaccio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 378</value>
+  </data>
+  <data name="ContenidorTipusTransaccio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 69</value>
+  </data>
+  <data name="ContenidorTipusTransaccio.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;ContenidorTipusTransaccio.Name" xml:space="preserve">
+    <value>ContenidorTipusTransaccio</value>
+  </data>
+  <data name="&gt;&gt;ContenidorTipusTransaccio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ContenidorTipusTransaccio.Parent" xml:space="preserve">
+    <value>TaulaHistorial</value>
+  </data>
+  <data name="&gt;&gt;ContenidorTipusTransaccio.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ContenidorClients.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ContenidorClients.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 303</value>
+  </data>
+  <data name="ClientsText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="ClientsText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="ClientsText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ClientsText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 20</value>
+  </data>
+  <data name="ClientsText.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="ClientsText.Text" xml:space="preserve">
+    <value>Client de la transacció</value>
+  </data>
+  <data name="ClientsText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;ClientsText.Name" xml:space="preserve">
+    <value>ClientsText</value>
+  </data>
+  <data name="&gt;&gt;ClientsText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClientsText.Parent" xml:space="preserve">
+    <value>ContenidorClients.Panel1</value>
+  </data>
+  <data name="&gt;&gt;ClientsText.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ContenidorClients.Panel1.Name" xml:space="preserve">
+    <value>ContenidorClients.Panel1</value>
+  </data>
+  <data name="&gt;&gt;ContenidorClients.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ContenidorClients.Panel1.Parent" xml:space="preserve">
+    <value>ContenidorClients</value>
+  </data>
+  <data name="&gt;&gt;ContenidorClients.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ClientsCaixa.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ClientsCaixa.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ClientsCaixa.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 28</value>
+  </data>
+  <data name="ClientsCaixa.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;ClientsCaixa.Name" xml:space="preserve">
+    <value>ClientsCaixa</value>
+  </data>
+  <data name="&gt;&gt;ClientsCaixa.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClientsCaixa.Parent" xml:space="preserve">
+    <value>ContenidorClients.Panel2</value>
+  </data>
+  <data name="&gt;&gt;ClientsCaixa.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ContenidorClients.Panel2.Name" xml:space="preserve">
+    <value>ContenidorClients.Panel2</value>
+  </data>
+  <data name="&gt;&gt;ContenidorClients.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ContenidorClients.Panel2.Parent" xml:space="preserve">
+    <value>ContenidorClients</value>
+  </data>
+  <data name="&gt;&gt;ContenidorClients.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ContenidorClients.Size" type="System.Drawing.Size, System.Drawing">
+    <value>390, 69</value>
+  </data>
+  <data name="ContenidorClients.SplitterDistance" type="System.Int32, mscorlib">
+    <value>195</value>
+  </data>
+  <data name="ContenidorClients.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;ContenidorClients.Name" xml:space="preserve">
+    <value>ContenidorClients</value>
+  </data>
+  <data name="&gt;&gt;ContenidorClients.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ContenidorClients.Parent" xml:space="preserve">
+    <value>TaulaHistorial</value>
+  </data>
+  <data name="&gt;&gt;ContenidorClients.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="DescomptesContenidor.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="DescomptesContenidor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 378</value>
+  </data>
+  <data name="Descompte1CaixaMarca.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Descompte1CaixaMarca.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Descompte1CaixaMarca.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="Descompte1CaixaMarca.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Descompte1CaixaMarca.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 69</value>
+  </data>
+  <data name="Descompte1CaixaMarca.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="Descompte1CaixaMarca.Text" xml:space="preserve">
+    <value>Descompte 1</value>
+  </data>
+  <data name="&gt;&gt;Descompte1CaixaMarca.Name" xml:space="preserve">
+    <value>Descompte1CaixaMarca</value>
+  </data>
+  <data name="&gt;&gt;Descompte1CaixaMarca.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Descompte1CaixaMarca.Parent" xml:space="preserve">
+    <value>DescomptesContenidor.Panel1</value>
+  </data>
+  <data name="&gt;&gt;Descompte1CaixaMarca.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;DescomptesContenidor.Panel1.Name" xml:space="preserve">
+    <value>DescomptesContenidor.Panel1</value>
+  </data>
+  <data name="&gt;&gt;DescomptesContenidor.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DescomptesContenidor.Panel1.Parent" xml:space="preserve">
+    <value>DescomptesContenidor</value>
+  </data>
+  <data name="&gt;&gt;DescomptesContenidor.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Descompte2CaixaMarca.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Descompte2CaixaMarca.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Descompte2CaixaMarca.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="Descompte2CaixaMarca.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Descompte2CaixaMarca.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 69</value>
+  </data>
+  <data name="Descompte2CaixaMarca.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="Descompte2CaixaMarca.Text" xml:space="preserve">
+    <value>Descompte 2</value>
+  </data>
+  <data name="&gt;&gt;Descompte2CaixaMarca.Name" xml:space="preserve">
+    <value>Descompte2CaixaMarca</value>
+  </data>
+  <data name="&gt;&gt;Descompte2CaixaMarca.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Descompte2CaixaMarca.Parent" xml:space="preserve">
+    <value>DescomptesContenidor.Panel2</value>
+  </data>
+  <data name="&gt;&gt;Descompte2CaixaMarca.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;DescomptesContenidor.Panel2.Name" xml:space="preserve">
+    <value>DescomptesContenidor.Panel2</value>
+  </data>
+  <data name="&gt;&gt;DescomptesContenidor.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DescomptesContenidor.Panel2.Parent" xml:space="preserve">
+    <value>DescomptesContenidor</value>
+  </data>
+  <data name="&gt;&gt;DescomptesContenidor.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="DescomptesContenidor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>291, 69</value>
+  </data>
+  <data name="DescomptesContenidor.SplitterDistance" type="System.Int32, mscorlib">
+    <value>146</value>
+  </data>
+  <data name="DescomptesContenidor.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;DescomptesContenidor.Name" xml:space="preserve">
+    <value>DescomptesContenidor</value>
+  </data>
+  <data name="&gt;&gt;DescomptesContenidor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DescomptesContenidor.Parent" xml:space="preserve">
+    <value>TaulaHistorial</value>
+  </data>
+  <data name="&gt;&gt;DescomptesContenidor.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="TaulaHistorial.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TaulaHistorial.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="TaulaHistorial.RowCount" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="TaulaHistorial.Size" type="System.Drawing.Size, System.Drawing">
+    <value>396, 450</value>
+  </data>
+  <data name="TaulaHistorial.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;TaulaHistorial.Name" xml:space="preserve">
+    <value>TaulaHistorial</value>
+  </data>
+  <data name="&gt;&gt;TaulaHistorial.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TaulaHistorial.Parent" xml:space="preserve">
+    <value>ContenidorDivisioVistes.Panel2</value>
+  </data>
+  <data name="&gt;&gt;TaulaHistorial.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TaulaHistorial.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="BotoEsborrar" Row="3" RowSpan="1" Column="0" ColumnSpan="4" /&gt;&lt;Control Name="HistorialTitol" Row="0" RowSpan="1" Column="0" ColumnSpan="4" /&gt;&lt;Control Name="TaulaDades" Row="1" RowSpan="2" Column="0" ColumnSpan="4" /&gt;&lt;Control Name="ContenidorTipusTransaccio" Row="5" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="ContenidorClients" Row="4" RowSpan="1" Column="0" ColumnSpan="4" /&gt;&lt;Control Name="DescomptesContenidor" Row="5" RowSpan="1" Column="0" ColumnSpan="3" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,25,Percent,25,Percent,25,Percent,25" /&gt;&lt;Rows Styles="Percent,16,667356,Percent,16,66736,Percent,16,66736,Percent,16,66736,Percent,16,66736,Percent,16,663195,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;ContenidorDivisioVistes.Panel2.Name" xml:space="preserve">
+    <value>ContenidorDivisioVistes.Panel2</value>
+  </data>
+  <data name="&gt;&gt;ContenidorDivisioVistes.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ContenidorDivisioVistes.Panel2.Parent" xml:space="preserve">
+    <value>ContenidorDivisioVistes</value>
+  </data>
+  <data name="&gt;&gt;ContenidorDivisioVistes.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ContenidorDivisioVistes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>800, 450</value>
+  </data>
+  <data name="ContenidorDivisioVistes.SplitterDistance" type="System.Int32, mscorlib">
+    <value>400</value>
+  </data>
+  <data name="ContenidorDivisioVistes.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ContenidorDivisioVistes.Name" xml:space="preserve">
+    <value>ContenidorDivisioVistes</value>
+  </data>
+  <data name="&gt;&gt;ContenidorDivisioVistes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ContenidorDivisioVistes.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ContenidorDivisioVistes.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 20</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>800, 450</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Conversor de divises</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Conversor</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>
