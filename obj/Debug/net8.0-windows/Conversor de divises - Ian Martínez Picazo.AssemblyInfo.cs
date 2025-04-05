@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Conversor de divises - Ian Martínez Picazo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0cfa0f3210fa753efc27a06fb3bd4938a7e70145")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b231bb1699fb982892be8ac04eb9d42ed198a119")]
 [assembly: System.Reflection.AssemblyProductAttribute("Conversor de divises - Ian Martínez Picazo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Conversor de divises - Ian Martínez Picazo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

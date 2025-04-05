@@ -32,3 +32,6 @@ C:\Users\marti\Documents\nf1-calculadora-IanMartinezPicazo\obj\Debug\net8.0-wind
 C:\Users\marti\Documents\nf1-calculadora-IanMartinezPicazo\obj\Debug\net8.0-windows\Conversor de divises - Ian Martínez Picazo.pdb
 C:\Users\marti\Documents\nf1-calculadora-IanMartinezPicazo\obj\Debug\net8.0-windows\Conversor de divises - Ian Martínez Picazo.genruntimeconfig.cache
 C:\Users\marti\Documents\nf1-calculadora-IanMartinezPicazo\obj\Debug\net8.0-windows\ref\Conversor de divises - Ian Martínez Picazo.dll
+C:\Users\marti\Documents\nf1-calculadora-IanMartinezPicazo\bin\Debug\net8.0-windows\ca-ES\Conversor de divises - Ian Martínez Picazo.resources.dll
+C:\Users\marti\Documents\nf1-calculadora-IanMartinezPicazo\obj\Debug\net8.0-windows\Conversor_de_divises___Ian_Martínez_Picazo.Conversor.ca-ES.resources
+C:\Users\marti\Documents\nf1-calculadora-IanMartinezPicazo\obj\Debug\net8.0-windows\ca-ES\Conversor de divises - Ian Martínez Picazo.resources.dll

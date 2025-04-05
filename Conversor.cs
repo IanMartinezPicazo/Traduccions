@@ -107,6 +107,16 @@ namespace Conversor_de_divises___Ian_Martínez_Picazo
             { "CHF_A_¥", 1 / 0.0079 }
         };
 
+        // Emmagatzema els idiomes de l'aplicació.
+        private static BindingList<string> idiomes = new BindingList<string>
+        {
+            "English | en",
+            "Català | ca-ES",
+            "Castellano | es",
+            "Français | fr-FR",
+            "Italiano | it"
+        };
+
         public Conversor()
         {
             InitializeComponent();
@@ -135,6 +145,9 @@ namespace Conversor_de_divises___Ian_Martínez_Picazo
 
             // Vincula el desplegable de clients amb una font d'informació.
             ClientsCaixa.DataSource = clients;
+
+            // Vincula el desplegabe d'idiomes a una font d'informació.
+            IdiomaCaixa.DataSource = idiomes;
 
             // Clients per demostrar.
             List<string> clients_demostratius = new List<string>

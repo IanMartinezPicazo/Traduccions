@@ -9,6 +9,11 @@
       "Conversor de divises - Ian Martínez Picazo/1.0.0": {
         "runtime": {
           "Conversor de divises - Ian Martínez Picazo.dll": {}
+        },
+        "resources": {
+          "ca-ES/Conversor de divises - Ian Martínez Picazo.resources.dll": {
+            "locale": "ca-ES"
+          }
         }
       }
     }
