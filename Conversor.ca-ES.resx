@@ -162,4 +162,10 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Conversor de divises</value>
   </data>
+  <data name="NoTraduibleText.Text" xml:space="preserve">
+    <value>-----&gt;
+No es pot traduir
+|
+v</value>
+  </data>
 </root>

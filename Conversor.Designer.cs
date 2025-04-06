@@ -44,6 +44,7 @@
             IdiomaContenidor = new SplitContainer();
             IdiomaText = new Label();
             IdiomaCaixa = new ComboBox();
+            NoTraduibleText = new Label();
             TaulaHistorial = new TableLayoutPanel();
             BotoEsborrar = new Button();
             HistorialTitol = new Label();
@@ -94,12 +95,10 @@
             // 
             // ContenidorDivisioVistes.Panel1
             // 
-            resources.ApplyResources(ContenidorDivisioVistes.Panel1, "ContenidorDivisioVistes.Panel1");
             ContenidorDivisioVistes.Panel1.Controls.Add(TaulaConversor);
             // 
             // ContenidorDivisioVistes.Panel2
             // 
-            resources.ApplyResources(ContenidorDivisioVistes.Panel2, "ContenidorDivisioVistes.Panel2");
             ContenidorDivisioVistes.Panel2.Controls.Add(TaulaHistorial);
             // 
             // TaulaConversor
@@ -112,12 +111,13 @@
             TaulaConversor.Controls.Add(ConversorTitol, 0, 0);
             TaulaConversor.Controls.Add(ContenidorDivisaActual, 3, 3);
             TaulaConversor.Controls.Add(IdiomaContenidor, 3, 0);
+            TaulaConversor.Controls.Add(NoTraduibleText, 3, 2);
             TaulaConversor.Name = "TaulaConversor";
             // 
             // ConvertirDivisaBoto
             // 
-            resources.ApplyResources(ConvertirDivisaBoto, "ConvertirDivisaBoto");
             ConvertirDivisaBoto.BackColor = Color.FromArgb(0, 192, 192);
+            resources.ApplyResources(ConvertirDivisaBoto, "ConvertirDivisaBoto");
             ConvertirDivisaBoto.Name = "ConvertirDivisaBoto";
             ConvertirDivisaBoto.UseVisualStyleBackColor = false;
             ConvertirDivisaBoto.Click += convertirDivisa;
@@ -129,12 +129,10 @@
             // 
             // ContenidorDivisaConvertir.Panel1
             // 
-            resources.ApplyResources(ContenidorDivisaConvertir.Panel1, "ContenidorDivisaConvertir.Panel1");
             ContenidorDivisaConvertir.Panel1.Controls.Add(DivisaConvertirText);
             // 
             // ContenidorDivisaConvertir.Panel2
             // 
-            resources.ApplyResources(ContenidorDivisaConvertir.Panel2, "ContenidorDivisaConvertir.Panel2");
             ContenidorDivisaConvertir.Panel2.Controls.Add(DivisaConvertirCaixa);
             // 
             // DivisaConvertirText
@@ -151,16 +149,16 @@
             // 
             // BotoBuidar
             // 
-            resources.ApplyResources(BotoBuidar, "BotoBuidar");
             BotoBuidar.BackColor = Color.Red;
+            resources.ApplyResources(BotoBuidar, "BotoBuidar");
             BotoBuidar.Name = "BotoBuidar";
             BotoBuidar.UseVisualStyleBackColor = false;
             BotoBuidar.Click += buidarCaixa;
             // 
             // CaixaEscriptura
             // 
-            resources.ApplyResources(CaixaEscriptura, "CaixaEscriptura");
             TaulaConversor.SetColumnSpan(CaixaEscriptura, 3);
+            resources.ApplyResources(CaixaEscriptura, "CaixaEscriptura");
             CaixaEscriptura.Name = "CaixaEscriptura";
             CaixaEscriptura.TextChanged += validacioQuantitat;
             // 
@@ -177,12 +175,10 @@
             // 
             // ContenidorDivisaActual.Panel1
             // 
-            resources.ApplyResources(ContenidorDivisaActual.Panel1, "ContenidorDivisaActual.Panel1");
             ContenidorDivisaActual.Panel1.Controls.Add(DivisaActualText);
             // 
             // ContenidorDivisaActual.Panel2
             // 
-            resources.ApplyResources(ContenidorDivisaActual.Panel2, "ContenidorDivisaActual.Panel2");
             ContenidorDivisaActual.Panel2.Controls.Add(DivisaActualCaixa);
             // 
             // DivisaActualText
@@ -205,12 +201,10 @@
             // 
             // IdiomaContenidor.Panel1
             // 
-            resources.ApplyResources(IdiomaContenidor.Panel1, "IdiomaContenidor.Panel1");
             IdiomaContenidor.Panel1.Controls.Add(IdiomaText);
             // 
             // IdiomaContenidor.Panel2
             // 
-            resources.ApplyResources(IdiomaContenidor.Panel2, "IdiomaContenidor.Panel2");
             IdiomaContenidor.Panel2.Controls.Add(IdiomaCaixa);
             // 
             // IdiomaText
@@ -223,6 +217,12 @@
             resources.ApplyResources(IdiomaCaixa, "IdiomaCaixa");
             IdiomaCaixa.FormattingEnabled = true;
             IdiomaCaixa.Name = "IdiomaCaixa";
+            IdiomaCaixa.SelectedIndexChanged += canviarLlenguatge;
+            // 
+            // NoTraduibleText
+            // 
+            resources.ApplyResources(NoTraduibleText, "NoTraduibleText");
+            NoTraduibleText.Name = "NoTraduibleText";
             // 
             // TaulaHistorial
             // 
@@ -237,9 +237,9 @@
             // 
             // BotoEsborrar
             // 
-            resources.ApplyResources(BotoEsborrar, "BotoEsborrar");
             BotoEsborrar.BackColor = Color.Red;
             TaulaHistorial.SetColumnSpan(BotoEsborrar, 4);
+            resources.ApplyResources(BotoEsborrar, "BotoEsborrar");
             BotoEsborrar.Name = "BotoEsborrar";
             BotoEsborrar.UseVisualStyleBackColor = false;
             BotoEsborrar.Click += esborrarRegistre;
@@ -252,21 +252,21 @@
             // 
             // TaulaDades
             // 
-            resources.ApplyResources(TaulaDades, "TaulaDades");
             TaulaDades.AllowUserToAddRows = false;
             TaulaDades.AllowUserToDeleteRows = false;
             TaulaDades.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             TaulaDades.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             TaulaHistorial.SetColumnSpan(TaulaDades, 4);
+            resources.ApplyResources(TaulaDades, "TaulaDades");
             TaulaDades.Name = "TaulaDades";
             TaulaHistorial.SetRowSpan(TaulaDades, 2);
             TaulaDades.CellValueChanged += comprovarDadesCoherents;
             // 
             // ContenidorTipusTransaccio
             // 
-            resources.ApplyResources(ContenidorTipusTransaccio, "ContenidorTipusTransaccio");
             ContenidorTipusTransaccio.Controls.Add(VendaTransaccio);
             ContenidorTipusTransaccio.Controls.Add(CompraTransaccio);
+            resources.ApplyResources(ContenidorTipusTransaccio, "ContenidorTipusTransaccio");
             ContenidorTipusTransaccio.Name = "ContenidorTipusTransaccio";
             // 
             // VendaTransaccio
@@ -286,18 +286,16 @@
             // 
             // ContenidorClients
             // 
-            resources.ApplyResources(ContenidorClients, "ContenidorClients");
             TaulaHistorial.SetColumnSpan(ContenidorClients, 4);
+            resources.ApplyResources(ContenidorClients, "ContenidorClients");
             ContenidorClients.Name = "ContenidorClients";
             // 
             // ContenidorClients.Panel1
             // 
-            resources.ApplyResources(ContenidorClients.Panel1, "ContenidorClients.Panel1");
             ContenidorClients.Panel1.Controls.Add(ClientsText);
             // 
             // ContenidorClients.Panel2
             // 
-            resources.ApplyResources(ContenidorClients.Panel2, "ContenidorClients.Panel2");
             ContenidorClients.Panel2.Controls.Add(ClientsCaixa);
             // 
             // ClientsText
@@ -314,18 +312,16 @@
             // 
             // DescomptesContenidor
             // 
-            resources.ApplyResources(DescomptesContenidor, "DescomptesContenidor");
             TaulaHistorial.SetColumnSpan(DescomptesContenidor, 3);
+            resources.ApplyResources(DescomptesContenidor, "DescomptesContenidor");
             DescomptesContenidor.Name = "DescomptesContenidor";
             // 
             // DescomptesContenidor.Panel1
             // 
-            resources.ApplyResources(DescomptesContenidor.Panel1, "DescomptesContenidor.Panel1");
             DescomptesContenidor.Panel1.Controls.Add(Descompte1CaixaMarca);
             // 
             // DescomptesContenidor.Panel2
             // 
-            resources.ApplyResources(DescomptesContenidor.Panel2, "DescomptesContenidor.Panel2");
             DescomptesContenidor.Panel2.Controls.Add(Descompte2CaixaMarca);
             // 
             // Descompte1CaixaMarca
@@ -349,6 +345,7 @@
             Controls.Add(ContenidorDivisioVistes);
             KeyPreview = true;
             Name = "Conversor";
+            Load += inicialitzacio;
             KeyDown += keyShortcuts;
             ContenidorDivisioVistes.Panel1.ResumeLayout(false);
             ContenidorDivisioVistes.Panel2.ResumeLayout(false);
@@ -416,5 +413,6 @@
         private SplitContainer IdiomaContenidor;
         private Label IdiomaText;
         private ComboBox IdiomaCaixa;
+        private Label NoTraduibleText;
     }
 }

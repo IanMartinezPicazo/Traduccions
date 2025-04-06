@@ -35,3 +35,12 @@ C:\Users\marti\Documents\nf1-calculadora-IanMartinezPicazo\obj\Debug\net8.0-wind
 C:\Users\marti\Documents\nf1-calculadora-IanMartinezPicazo\bin\Debug\net8.0-windows\ca-ES\Conversor de divises - Ian Martínez Picazo.resources.dll
 C:\Users\marti\Documents\nf1-calculadora-IanMartinezPicazo\obj\Debug\net8.0-windows\Conversor_de_divises___Ian_Martínez_Picazo.Conversor.ca-ES.resources
 C:\Users\marti\Documents\nf1-calculadora-IanMartinezPicazo\obj\Debug\net8.0-windows\ca-ES\Conversor de divises - Ian Martínez Picazo.resources.dll
+C:\Users\marti\Documents\nf1-calculadora-IanMartinezPicazo\bin\Debug\net8.0-windows\es\Conversor de divises - Ian Martínez Picazo.resources.dll
+C:\Users\marti\Documents\nf1-calculadora-IanMartinezPicazo\bin\Debug\net8.0-windows\fr-FR\Conversor de divises - Ian Martínez Picazo.resources.dll
+C:\Users\marti\Documents\nf1-calculadora-IanMartinezPicazo\bin\Debug\net8.0-windows\it\Conversor de divises - Ian Martínez Picazo.resources.dll
+C:\Users\marti\Documents\nf1-calculadora-IanMartinezPicazo\obj\Debug\net8.0-windows\Conversor_de_divises___Ian_Martínez_Picazo.Conversor.es.resources
+C:\Users\marti\Documents\nf1-calculadora-IanMartinezPicazo\obj\Debug\net8.0-windows\Conversor_de_divises___Ian_Martínez_Picazo.Conversor.fr-FR.resources
+C:\Users\marti\Documents\nf1-calculadora-IanMartinezPicazo\obj\Debug\net8.0-windows\Conversor_de_divises___Ian_Martínez_Picazo.Conversor.it.resources
+C:\Users\marti\Documents\nf1-calculadora-IanMartinezPicazo\obj\Debug\net8.0-windows\es\Conversor de divises - Ian Martínez Picazo.resources.dll
+C:\Users\marti\Documents\nf1-calculadora-IanMartinezPicazo\obj\Debug\net8.0-windows\fr-FR\Conversor de divises - Ian Martínez Picazo.resources.dll
+C:\Users\marti\Documents\nf1-calculadora-IanMartinezPicazo\obj\Debug\net8.0-windows\it\Conversor de divises - Ian Martínez Picazo.resources.dll

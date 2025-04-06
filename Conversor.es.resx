@@ -162,4 +162,10 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Conversor de divisas</value>
   </data>
+  <data name="NoTraduibleText.Text" xml:space="preserve">
+    <value>-----&gt;
+No se puede traducir
+|
+v</value>
+  </data>
 </root>

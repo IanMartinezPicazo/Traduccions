@@ -117,56 +117,11 @@ namespace Conversor_de_divises___Ian_Martínez_Picazo
             "Italiano | it"
         };
 
+        // Utilitza l'idioma angles en carregar el formulari.
         public Conversor()
         {
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo(aillarSimbol(idiomes[0]));
             InitializeComponent();
-
-            ContenidorDivisioVistes.SplitterDistance = ContenidorDivisioVistes.Width / 3;
-
-            // Creació de botons númerics.
-            for (int i = 1; i <= 9; i++)
-            {
-                CrearBotons("Num" + i, i.ToString(), (i - 1) % 3, (i - 1) / 3 + 2);
-            }
-            CrearBotons("Num0", "0", 0, 5, 2);
-            CrearBotons("Decimal", ".", 2, 5);
-
-            // Afegeix les divises als desplegables.
-            DivisaActualCaixa.Items.AddRange(divises);
-            DivisaConvertirCaixa.Items.AddRange(divises);
-
-            ContenidorDivisaActual.SplitterDistance = ContenidorDivisaActual.Width / 2;
-            ContenidorDivisaConvertir.SplitterDistance = ContenidorDivisaConvertir.Width / 2;
-            DescomptesContenidor.SplitterDistance = DescomptesContenidor.Width / 2;
-            ContenidorClients.SplitterDistance = ContenidorClients.Width / 4;
-
-            // Vincula la taula d'historial de conversions amb una font d'informació.
-            TaulaDades.DataSource = historial;
-
-            // Vincula el desplegable de clients amb una font d'informació.
-            ClientsCaixa.DataSource = clients;
-
-            // Vincula el desplegabe d'idiomes a una font d'informació.
-            IdiomaCaixa.DataSource = idiomes;
-
-            // Clients per demostrar.
-            List<string> clients_demostratius = new List<string>
-            {
-                "John Smith | john.smith@email.com",
-                "Jane Doe | jane.doe@email.com",
-                "Michael Johnson | michael.j@email.com",
-                "Emily Davis | emily.d@email.com",
-                "David Wilson | david.w@email.com",
-                "Sarah Brown | sarah.b@email.com",
-                "Chris Martinez | chris.m@email.com",
-                "Jessica Taylor | jessica.t@email.com",
-                "Daniel Anderson | daniel.a@email.com",
-                "Laura White | laura.w@email.com"
-            };
-            foreach (var client in clients_demostratius)
-            {
-                clients.Add(client);
-            }
         }
 
         // Assigna els botons númerics per codi a la vista i també assigna un event compartit per a cadascú.
@@ -233,7 +188,7 @@ namespace Conversor_de_divises___Ian_Martínez_Picazo
             canviant_text = true;
 
             // Assigna el text validat de nou.
-            CaixaEscriptura.Text = text_valid + aillarSimbolDivisa(DivisaActualCaixa.Text.Trim());
+            CaixaEscriptura.Text = text_valid + aillarSimbol(DivisaActualCaixa.Text.Trim());
 
             // Restaura la posició del cursor després de la validació.
             CaixaEscriptura.SelectionStart = cursor;
@@ -254,8 +209,8 @@ namespace Conversor_de_divises___Ian_Martínez_Picazo
             if (!string.IsNullOrEmpty(CaixaEscriptura.Text))
             {
                 // Obté les divises seleccionades
-                string divisa_actual = aillarSimbolDivisa(DivisaActualCaixa.Text);
-                string divisa_convertir = aillarSimbolDivisa(DivisaConvertirCaixa.Text);
+                string divisa_actual = aillarSimbol(DivisaActualCaixa.Text);
+                string divisa_convertir = aillarSimbol(DivisaConvertirCaixa.Text);
 
                 // Obté la part númmerica de la caixa de text
                 if (double.TryParse(CaixaEscriptura.Text.Substring(0, CaixaEscriptura.Text.Length - divisa_actual.Length), NumberStyles.Any, CultureInfo.InvariantCulture, out double quantitat))
@@ -318,15 +273,15 @@ namespace Conversor_de_divises___Ian_Martínez_Picazo
             }
         }
 
-        // Retorna el simbol de la divisa proporcionada. (Format: [Nom] | [Simbol)
-        public string aillarSimbolDivisa(string divisa_text)
+        // Retorna el simbol del text proporcionat. (Format: [Nom] | [Simbol)
+        public string aillarSimbol(string text)
         {
-            for (int i = 0; i < divisa_text.Length; i++)
+            for (int i = 0; i < text.Length; i++)
             {
-                char buscador = divisa_text[i];
+                char buscador = text[i];
                 if (buscador == '|')
                 {
-                    return divisa_text.Substring(i + 1).Trim();
+                    return text.Substring(i + 1).Trim();
                 }
             }
             return "Skib";
@@ -425,11 +380,11 @@ namespace Conversor_de_divises___Ian_Martínez_Picazo
                 bool divisa1_valida = false, divisa2_valida = false;
                 foreach (String divisa in divises)
                 {
-                    if (fila.Cells["Divisa1"].Value.Equals(aillarSimbolDivisa(divisa)))
+                    if (fila.Cells["Divisa1"].Value.Equals(aillarSimbol(divisa)))
                     {
                         divisa1_valida = true;
                     }
-                    if (fila.Cells["Divisa2"].Value.Equals(aillarSimbolDivisa(divisa)))
+                    if (fila.Cells["Divisa2"].Value.Equals(aillarSimbol(divisa)))
                     {
                         divisa2_valida = true;
                     }
@@ -490,6 +445,87 @@ namespace Conversor_de_divises___Ian_Martínez_Picazo
             if (e.Control && e.KeyCode == Keys.D)
             {
                 esborrarRegistre(sender, e);
+            }
+        }
+
+        // Per evitar errades.
+        bool primera_vegada = true;
+
+        // S'executa en seleccionar qualsevol llenguatge, reinicia l'aplicació.
+        private void canviarLlenguatge(object sender, EventArgs e)
+        {
+            if (!primera_vegada)
+            {
+                string idioma_seleccionat = IdiomaCaixa.SelectedValue.ToString();
+                Thread.CurrentThread.CurrentUICulture = new CultureInfo(aillarSimbol(idioma_seleccionat));
+                Controls.Clear();
+
+                // Gestiona els canvis inesperats de la finestra.
+                var posicio = this.Location;
+                var tamany = this.Size;
+                primera_vegada = true;
+                InitializeComponent();
+                inicialitzacio(this, e);
+                this.Location = posicio;
+                this.Size = tamany;
+                this.PerformLayout();
+                primera_vegada = true;
+                IdiomaCaixa.SelectedItem = idioma_seleccionat;
+            }
+            else
+            {
+                primera_vegada = false;
+            }
+        }
+
+        // Estableïx tot lo necessari en carregar el formulari
+        public void inicialitzacio(object sender, EventArgs e)
+        {
+            ContenidorDivisioVistes.SplitterDistance = ContenidorDivisioVistes.Width / 3;
+
+            // Creació de botons númerics.
+            for (int i = 1; i <= 9; i++)
+            {
+                CrearBotons("Num" + i, i.ToString(), (i - 1) % 3, (i - 1) / 3 + 2);
+            }
+            CrearBotons("Num0", "0", 0, 5, 2);
+            CrearBotons("Decimal", ".", 2, 5);
+
+            // Afegeix les divises als desplegables.
+            DivisaActualCaixa.Items.AddRange(divises);
+            DivisaConvertirCaixa.Items.AddRange(divises);
+
+            ContenidorDivisaActual.SplitterDistance = ContenidorDivisaActual.Width / 2;
+            ContenidorDivisaConvertir.SplitterDistance = ContenidorDivisaConvertir.Width / 2;
+            DescomptesContenidor.SplitterDistance = DescomptesContenidor.Width / 2;
+            ContenidorClients.SplitterDistance = ContenidorClients.Width / 4;
+
+            // Vincula la taula d'historial de conversions amb una font d'informació.
+            TaulaDades.DataSource = historial;
+
+            // Vincula el desplegable de clients amb una font d'informació.
+            ClientsCaixa.DataSource = clients;
+
+            // Vincula el desplegabe d'idiomes a una font d'informació.
+            IdiomaCaixa.DataSource = idiomes;
+
+            // Clients per demostrar.
+            List<string> clients_demostratius = new List<string>
+            {
+                "John Smith | john.smith@email.com",
+                "Jane Doe | jane.doe@email.com",
+                "Michael Johnson | michael.j@email.com",
+                "Emily Davis | emily.d@email.com",
+                "David Wilson | david.w@email.com",
+                "Sarah Brown | sarah.b@email.com",
+                "Chris Martinez | chris.m@email.com",
+                "Jessica Taylor | jessica.t@email.com",
+                "Daniel Anderson | daniel.a@email.com",
+                "Laura White | laura.w@email.com"
+            };
+            foreach (var client in clients_demostratius)
+            {
+                clients.Add(client);
             }
         }
     }
